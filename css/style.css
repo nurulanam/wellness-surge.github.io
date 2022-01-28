@@ -1,0 +1,59 @@
+/* main navbar */
+.logo{
+    max-width: 275px ;
+}
+.step1{
+    max-width: 70%;
+}
+/* baody */
+@media screen and (min-width: 769px) {
+    .pd-lr {
+        padding-right: 150px;
+        padding-left: 150px ;
+    }
+  }
+.bt{
+    border: 2px solid #3E5E3A;
+    border-radius: 5%;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fff
+  }
+  
+.act, .overlay{
+    opacity: 0.2;
+}
+.q-text h5{
+    line-height: 1.4;
+}
+.form-check-input:checked {
+	background-color: green !important;
+	border-color: green !important;
+}
+.prd-dtl .row .col-lg-8 .list-group-item{
+    border: none;
+}
+@media screen and (min-width: 769px) {
+    .sub_btn button {
+        font-size: 20px;
+    }
+  }
+/* footer */
+.footer{
+    background-color: #f2f2f2;
+}
+.footer .nav .nav-link{
+    color: #3E5E3A;
+    font-size: 18px;
+    font-weight: 600;
+}
